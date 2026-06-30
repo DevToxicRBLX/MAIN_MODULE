@@ -17,37 +17,72 @@ Config.Towers = {
                 };
             };
         };
-        ["Rarity"] = "Noob";
+        ["Rarity"] = "Basic";
         ["Image"] = "rbxassetid://38231545";
         ["Price"] = 67;
-    };
-    ["John"] = {
-        ["Stats"] = {
-            ["Config1"] = {
-                ["AttackType"] = {};
-                ["Stats"] = {
-                    ["Damage"] = 100;
-                    ["Range"] = 15;
-                    ["Cooldown"] = 1;
-                };
-                ["MaxStats"] = {
-                    ["Damage"] = 200;
-                    ["Range"] = 20;
-                    ["Cooldown"] = 0.75;
-                };
-            };
-        };
-        ["Rarity"] = "Noob";
-        ["Image"] = "rbxassetid://38231545";
-        ["Price"] = 100;
     };
 }
 
 Config.Raritys = {
-    ["Noob"] = {
+    ["Basic"] = {
         ["LayoutOrder"] = 0;
         ["Sell"] = 1;
     };
+    ["Rare"] = {
+        ["LayoutOrder"] = 1;
+        ["Sell"] = 2;
+    };
+    ["Epic"] = {
+        ["LayoutOrder"] = 2;
+        ["Sell"] = 3;
+    };
+    ["Legendary"] = {
+        ["LayoutOrder"] = 3;
+        ["Sell"] = 4;
+    };
+     ["Mythic"] = {
+        ["LayoutOrder"] = 3;
+        ["Sell"] = 4;
+    };
+}
+
+
+
+Config.Summons = {
+	["Basic_Crate"] = {
+		--//GUi//--
+		["Color"] = Color3.fromRGB(0, 255, 102);
+		["Layout"] = 1;
+		["DisplayName"] = "Basic Summon";
+		
+		["Price"] = 100;
+		["Currency"] = "Cash";
+		["Chance"] = {
+			["Basic"] = 60; 
+			["Rare"] = 30;
+			["Epic"] = 9;
+			["Legendary"] = 0.9;
+			["Mythic"] = 0.1 ;
+		};
+		["Drops"] = {
+			["Basic"] = {
+				["Noob"] = true;
+			};
+			["Rare"] = {
+				["Noob"] = true;
+			};
+			["Epic"] = {
+				["Noob"] = true;
+			};
+			["Legendary"] = {
+				["Noob"] = true;
+			};
+			["Mythic"] = {
+				["Noob"] = true;
+			};
+		};
+		["Image"] = "rbxassetid://139320127011254";
+	};
 }
 
 return Config
