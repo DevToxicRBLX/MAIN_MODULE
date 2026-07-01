@@ -17,7 +17,7 @@ Config.Towers = {
                 };
             };
         };
-        ["Name"] = "Noob"
+        ["Name"] = "Noob";
         ["Rarity"] = "Basic";
         ["Image"] = "rbxassetid://38231545";
         ["Price"] = 67;
