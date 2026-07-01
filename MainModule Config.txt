@@ -17,6 +17,7 @@ Config.Towers = {
                 };
             };
         };
+        ["Name"] = "Noob"
         ["Rarity"] = "Basic";
         ["Image"] = "rbxassetid://38231545";
         ["Price"] = 67;
@@ -84,9 +85,5 @@ Config.Summons = {
 		["Image"] = "rbxassetid://139320127011254";
 	};
 }
-
-for i, v in pairs(Config.Towers) do
-    v["Name"] = i
-end
 
 return Config
