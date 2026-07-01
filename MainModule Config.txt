@@ -85,4 +85,8 @@ Config.Summons = {
 	};
 }
 
+for i, v in pairs(Config.Towers) do
+    v["Name"] = i
+end
+
 return Config
